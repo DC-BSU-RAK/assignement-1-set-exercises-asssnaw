@@ -1,23 +1,23 @@
 /* Reset and basic styling */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #111;
-  color: #ffffff;
+  margin: 0; /* Removes default margin */
+  font-family: Arial, sans-serif; /* Sets the font as Arial, sans-serif */
+  background-color: #111; /* Background color */
+  color: #ffffff; /* Text color */
 }
 
-/* Header styling */
+/* Code for styling the header */
 header {
-  background-color: #1a1a1a;
-  padding: 20px 0;
-  text-align: center;
+  background-color: #1a1a1a; /* Sets a Dark header */
+  padding: 20px 0; /* Verticl padding */
+  text-align: center; /* Aligns text to the center */
 }
 
 header h1 {
-  font-family: Tahoma, sans-serif;
-  color: darkred;
-  font-size: 3em;
-  margin: 0;
+  font-family: Tahoma, sans-serif; /* sets the font */
+  color: darkred; /* font color */
+  font-size: 3em; /* font size */
+  margin: 0; /* Clears margin */
 }
 
 /* Navigation styling */
