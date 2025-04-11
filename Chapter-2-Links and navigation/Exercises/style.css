@@ -1,83 +1,83 @@
 /* Reset and basic styling */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #111;
-  color: #ffffff;
+  margin: 0; /* Removes default margin */
+  font-family: Arial, sans-serif; /* Sets the font as Arial, sans-serif */
+  background-color: #111; /* Background color */
+  color: #ffffff; /* Text color */
 }
 
-/* Header styling */
+/* Code for styling the header */
 header {
-  background-color: #1a1a1a;
-  padding: 20px 0;
-  text-align: center;
+  background-color: #1a1a1a; /* Sets a Dark header */
+  padding: 20px 0; /* Verticl padding */
+  text-align: center; /* Aligns text to the center */
 }
 
 header h1 {
-  font-family: Tahoma, sans-serif;
-  color: darkred;
-  font-size: 3em;
-  margin: 0;
+  font-family: Tahoma, sans-serif; /* sets the font */
+  color: darkred; /* font color */
+  font-size: 3em; /* font size */
+  margin: 0; /* Clears margin */
 }
 
-/* Navigation styling */
+/* The following code is used for Navigation styling */
 nav ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 15px;
+  list-style: none; /* Removes bullet point */
+  padding: 0; /* Removes padding */
+  margin-top: 15px; /* Adds space above nav */
 }
 
 nav ul li {
-  display: inline;
-  margin: 0 15px;
+  display: inline; /* Displays items side by side */
+  margin: 0 15px; /* Space between items */
 }
 
 nav ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
+  color: #ffffff; /* White texts */
+  text-decoration: none; /* Removes underline */
+  font-weight: bold; /* Emphasizes the text */
 }
 
 nav ul li a:hover {
-  color: darkred;
+  color: darkred; /* Changes color on hover for feedback */
 }
 
 /* Main content area */
 main {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
+  padding: 40px 20px; /* Space inside content area */
+  max-width: 900px; /* Maximum width */
+  margin: auto; /* Centers the main content */
 }
 
 /* Section headings */
 .section-heading {
-  font-size: 2em;
-  color: #ff3333;
-  margin-top: 40px;
-  border-bottom: 2px solid #ff3333;
-  padding-bottom: 5px;
+  font-size: 2em; /* Large font for section headers */
+  color: #ff3333; /* red for font color */
+  margin-top: 40px; /* Space above the heading */
+  border-bottom: 2px solid #ff3333; /* Underline effect */
+  padding-bottom: 5px; /* Space between the below text and above border */
 }
 
 /* Text blocks */
 .text-block {
-  font-size: 1.1em;
-  line-height: 1.6em;
-  margin-top: 10px;
+  font-size: 1.1em; /* Slightly bigger font size */
+  line-height: 1.6em; /* Line spacing */
+  margin-top: 10px; /* margin gap */
 }
 
-/* Button link */
+/* Styling of Button link */
 .button-link {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #e50914;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  display: inline-block; /* Allows padding and margin */
+  margin-top: 20px; /* margin spacing */
+  padding: 10px 20px; /* padding inside the button */
+  background-color: #e50914; /* color of button */
+  color: #ffffff; /* color of the text */
+  text-decoration: none; /* No underline */
+  font-weight: bold; /* Bold effect */
+  border-radius: 5px; /* Round corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .button-link:hover {
-  background-color: #b00610;
+  background-color: #b00610; /* Darker red to hover */
 }
