@@ -1,0 +1,48 @@
+/* Body Styling */
+body {
+  display: flex; /* Aligns div horizontally */
+  justify-content: space-around; /* Gives even space between the divs */
+  align-items: center; /* Aligns the divs vertically in center */
+  height: 100vh; /* sets the height */
+  background-color: white; /* Sets the background color */
+  font-family: sans-serif; /* Sets the font */
+}
+
+/* Stylin the box for all divs */
+div {
+  width: 150px; /* sets the width */
+  height: 150px; /* Sets the height  */
+  line-height: 150px; /* Aligns the text to center vertically */
+  text-align: center; /* Sets the text to center horizontally */
+  font-size: 20px; /* Sets the font size */
+  margin: 10px; /* Sets the margin */
+  background-color: white; /* Sets the background color */
+}
+
+/* Styling the box A */
+#A {
+  border: 3px solid purple; /* sets purple as border color */
+  box-shadow: 10px 10px 20px red; /* sets the red drop shadow effect */
+}
+
+/* Styling the box B */
+#B {
+  border: 3px solid lime; /* Sets green as border color  */
+  box-shadow: inset 10px 10px 20px black; /* Shadow effect */
+}
+
+/* Styling the Box C */
+#C {
+  border: 3px solid orange; /* sets orange as a border */
+  border-radius: 20px; /* Rounds the corners */
+  box-shadow:
+    0 0 0 5px blue, /* 1 layer as blue */
+    0 0 0 10px red, /* 2nd layer as red around blue */
+    0 0 0 15px green; /* 3rd layer as green around red */
+}
+
+/* Styling the Box D */
+#D {
+  border: 3px solid brown; /* Sets the border in brown */
+  text-shadow: 2px 2px 2px black; /* Shadow effect on the text */
+}
