@@ -1,0 +1,48 @@
+/* style3.css */
+
+body {
+    background-color: #8B0000; /* Dark red */
+    color: white; /* White text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin: 20px;
+  }
+  
+  .image-block {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #6B0000; /* Darker red for the box */
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 400px; /* Adjust the size */
+    height: 250px; /* Adjust the size */
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  
