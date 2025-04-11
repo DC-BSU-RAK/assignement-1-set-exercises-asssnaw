@@ -1,48 +1,51 @@
 /* style3.css */
 
 body {
-    background-color: #8B0000; /* Dark red */
-    color: white; /* White text */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    background-color: #8B0000; /* Dark red background */
+    color: white; /* White color text */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0; /* No margin */
+    padding: 0; /* no padding */
+    text-align: center; /* alignment to the center */
   }
-  
+
+/* Main Heading */
   h1 {
-    font-size: 2.5em;
-    margin-top: 20px;
+    font-size: 2.5em; /* size of the font */
+    margin-top: 20px; /* Adds spacing above the text */
   }
-  
+
+/* Paragraph styling */
   p {
-    line-height: 1.6;
-    margin: 20px;
+    line-height: 1.6; /* line spacing */
+    margin: 20px; /* Adds spacing around paragraph */
   }
   
   .image-block {
-    display: inline-block;
-    margin: 20px;
-    padding: 10px;
-    border: 2px solid white;
-    border-radius: 10px;
-    background-color: #6B0000; /* Darker red for the box */
+    display: inline-block; /* Allows boxes to be arranged side by side */
+    margin: 20px; /* Space between each image block */
+    padding: 10px; /* Space inside block */
+    border: 2px solid white; /* White border around the image block */
+    border-radius: 10px; /* Round corners */
+    background-color: #6B0000; /* Darker red background color for the box */
   }
-  
+
+/* For styling images */
   img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 8px;
-    width: 400px; /* Adjust the size */
-    height: 250px; /* Adjust the size */
+    display: block; 
+    margin: 0 auto; /* Centers the image */
+    border-radius: 8px; /* slightly round corners */
+    width: 400px; /* Adjust the width */
+    height: 250px; /* Adjust the height */
   }
   
   .description {
-    margin-top: 10px;
-    font-size: 1.1em;
-    color: white;
-    text-align: center;
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 10px; /* Space above the description */
+    font-size: 1.1em; /* slightly larger font size */
+    color: white; /* font color */
+    text-align: center; /* Alligned in the middle */
+    margin-top: 15px; /* adds spacing at the top */
+    padding: 10px; /* Adds internal spacing */
   }
   
   
