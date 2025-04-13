@@ -1,0 +1,77 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font */
+    background-color: #f3f3f3; /* background color of page as gray */
+    color: #333; /* dark grey text color */
+    margin: 0;
+    padding: 20px;
+    display: flex; /* centers the content vertically */
+    flex-direction: column;
+    align-items: center; /* centers the content horiziontally */
+}
+
+
+/* Page heading */
+h1 {
+    color: #2c3e50; /* color text dark blue */
+    margin-bottom: 30px; /* space below the heading */
+}
+
+
+/* Form container */
+form {
+    background-color: #fff;  /* White background */
+    padding: 25px 30px;  /* Inner spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 300px; /* Fixed form width */
+}
+
+
+/* Calculator section */
+.calculator input {
+    width: 100%;  /* Full width inputs */
+    padding: 10px; 
+    margin: 10px 0; /* vertical spacing */
+    font-size: 16px;
+    border: 1px solid #ccc; /* light border */
+    border-radius: 5px; /* rounded edges */
+}
+
+/* Button styling */
+button {
+    width: 100%; /* Full width button */
+    padding: 10px;
+    font-size: 16px;
+    background-color: #27ae60; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #219150; /* Slightly darker green on hover */
+}
+
+/* Result display */
+.Result {
+    margin-top: 20px; 
+}
+
+/* Label inside result block */
+.Result p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* result input */
+.Result input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #eee; /* Light gray background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
