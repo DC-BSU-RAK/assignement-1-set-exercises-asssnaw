@@ -1,0 +1,73 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif; /* Sets a font */
+    text-align: center; /* aligns text in center */
+    background-color: #f4f4f4; /* white background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling header section */
+  header {
+    background-color: #973939; /* deep red background color for header */
+    color: #fff; /* text color white */
+    padding: 20px; 
+  }
+
+  /* Displays the RGB value */
+  #rgbDisplay {
+    color: #122304; /* Dark green text coolor */
+  }
+  
+  /* Color squares */
+  .color-container {
+    display: flex;  /* Use Flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; 
+    padding: 30px;
+  }
+
+  /* Each individual color square */
+  .color-box {
+    width: 100px; /* Width of square */
+    height: 100px; /* height of square */
+    margin: 15px; /* Margin between squares */
+    border: 2px solid #20d2a2; /* Teal border  */
+    cursor: pointer; 
+    transition: transform 0.3s;
+  }
+  
+  /* Hover effect to slightly enlarge the square */
+  .color-box:hover {
+    transform: scale(1.1);
+  }
+  
+
+  /* Game info section */
+  #info {
+    margin-top: 20px;
+  }
+
+  /* Message text  */
+  #message {
+    font-size: 18px;
+    margin: 10px;
+    color: #b45ae1;
+  }
+  
+  /* Reset button styling */
+  #resetBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer; /* Cursor changes on hover */
+    border-radius: 6px;
+  }
+  
+  /* Hover effect for reset button */
+  #resetBtn:hover {
+    background-color: #555; /* Slightly lighter on hover */
+  }
