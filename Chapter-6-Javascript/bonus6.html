@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RGB Color Guessing Game</title>
+  <link rel="stylesheet" href="bonus6.css">
+</head>
+<body>
+  <!-- Header section of the page -->
+  <header>
+    <h1>Guess the Color!!!: <span id="rgbDisplay">rgb(?, ?, ?)</span></h1>
+    <!-- Displays the target RGB color that the user has to guess -->
+  </header>
+
+  <main>
+    <!-- Main content section -->
+    <div id="message"></div>
+    <div class="color-container" id="colorOptions">
+      <!-- Color squares will be generated here -->
+    </div>
+    <div id="info">
+      <!-- Section showing game stats and reset button -->
+      <p>Lives: <span id="lives">3</span> | Score: <span id="score">0</span></p>
+      <!-- Displays remaining lives and current score -->
+      <button id="resetBtn">Play Again</button>
+      <!-- Button to reset and play the game again -->
+    </div>
+  </main>
+
+  <script src="bonus6.js"></script>
+   <!-- Links the external JavaScript file which handles the game logic --
+</body>
+</html>
